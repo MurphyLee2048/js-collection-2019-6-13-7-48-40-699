@@ -8,7 +8,7 @@ describe('map to even', function() {
 
   it("map to even", function() {
 
-    var result = map_to_even(collection_a);
-    expect(result).toEqual(collection_b);
+    var map = map_to_even(collection_a);
+    expect(map).toEqual(collection_b);
   });
 });
